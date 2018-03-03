@@ -1,7 +1,7 @@
 # Machine Learning with R
 
 ## [Supervised Learning Algorithms](#supervised-learning-algorithms)
-* [Nearest Neighbor Classification](#nearest-eighbor-classification)
+* [Nearest Neighbor Classification](#nearest-neighbor-classification)
 * [Naive Bayes Classification](#naive-bayes-classification)
 * [Decision Trees Classification](#decision-trees-classification)
 * [Linear Regression Numeric prediction](#linear-regression-numeric-prediction)
