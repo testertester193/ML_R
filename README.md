@@ -21,12 +21,12 @@
 ## Supervised Learning Algorithms
 ### [Nearest Neighbor Classification](https://github.com/kvinlazy/ML_R/blob/master/test_OCR.R)
 ####  Nearest neighbor classifiers are defined by their characteristic of classifying unlabeled examples by assigning them the class of similar labeled examples. Despite the simplicity of this idea, nearest neighbor methods are extremely powerful.
-|Strengths | Weaknesses | 
-|---|---|
-|Simple and effective| Does not produce a model, limiting the ability to understand how the features are related to the class |
-|Makes no assumptions about the underlying data distribution | Requires selection of an appropriate k |
-|Fast training phase | Slow classification phase
-|| Nominal features and missing data require additional processing |
+Strengths | Weaknesses  
+---|---
+| Simple and effective| Does not produce a model, limiting the ability to understand how the features are related to the class |
+| Makes no assumptions about the underlying data distribution | Requires selection of an appropriate k |
+| Fast training phase | Slow classification phase
+|  | Nominal features and missing data require additional processing |
 
 ### [Naive Bayes Classification](https://github.com/kvinlazy/ML_R/blob/master/test_OCR.R)
 ### [Decision Trees Classification](https://github.com/kvinlazy/ML_R/blob/master/test_c50.R)
