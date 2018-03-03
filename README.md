@@ -3,7 +3,8 @@
 ## Supervised Learning Algorithms
 
 * [Neural Network](https://github.com/kvinlazy/ML_R/blob/master/test_OCR.R)
-![Neural Network](https://github.com/kvinlazy/ML_R/blob/master/images/neutralnet.png)
+
+![Neural Network](./images/neutralnet.png)
 
 Nearest Neighbor Classification 3
 Naive Bayes Classification 4
