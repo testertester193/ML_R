@@ -1,13 +1,13 @@
 # Machine Learning with R
 
-## Supervised Learning Algorithms
+## [Supervised Learning Algorithms](#supervised-learning-algorithms)
 * [Nearest Neighbor Classification](#nearest-eighbor-classification)
-* [Naive Bayes Classification](https://github.com/kvinlazy/ML_R/blob/master/test_OCR.R)
-* [Decision Trees Classification](https://github.com/kvinlazy/ML_R/blob/master/test_c50.R)
-* [Linear Regression Numeric prediction](https://github.com/kvinlazy/ML_R/blob/master/test_linear.R)
-* [Regression Trees Numeric prediction](https://github.com/kvinlazy/ML_R/blob/master/test_cortree.R)
-* [Neural Networks Dual use](https://github.com/kvinlazy/ML_R/blob/master/test_neutralnet.R)
-* [Support Vector Machines Dual use](https://github.com/kvinlazy/ML_R/blob/master/test_OCR.R)
+* [Naive Bayes Classification](#naive-bayes-classification)
+* [Decision Trees Classification](#decision-tree-classification)
+* [Linear Regression Numeric prediction](#linear-regression-numeric-prediction)
+* [Regression Trees Numeric prediction](#regression-trees-numeric-prediction)
+* [Neural Networks Dual use](#neural-networks-dual-use)
+* [Support Vector Machines Dual use](#support-vector-machines-dual-use)
 
 ## Unsupervised Learning Algorithms
 * [Association Rules Pattern detection](https://github.com/kvinlazy/ML_R/blob/master/test_aprori.R)
