@@ -3,15 +3,15 @@
 ## [Supervised Learning Algorithms](#supervised-learning-algorithms)
 * [Nearest Neighbor Classification](#nearest-eighbor-classification)
 * [Naive Bayes Classification](#naive-bayes-classification)
-* [Decision Trees Classification](#decision-tree-classification)
+* [Decision Trees Classification](#decision-trees-classification)
 * [Linear Regression Numeric prediction](#linear-regression-numeric-prediction)
 * [Regression Trees Numeric prediction](#regression-trees-numeric-prediction)
 * [Neural Networks Dual use](#neural-networks-dual-use)
 * [Support Vector Machines Dual use](#support-vector-machines-dual-use)
 
 ## Unsupervised Learning Algorithms
-* [Association Rules Pattern detection](https://github.com/kvinlazy/ML_R/blob/master/test_aprori.R)
-* [k-means clustering Clustering](https://github.com/kvinlazy/ML_R/blob/master/test_k.R)
+* [Association Rules Pattern detection](#association-rules-pattern-detection)
+* [k-means clustering](#k-means-clustering)
 
 ## Meta-Learning Algorithms
 * [Bagging Dual use]
@@ -31,7 +31,7 @@
 
 ## Unsupervised Learning Algorithms
 ### [Association Rules Pattern detection](https://github.com/kvinlazy/ML_R/blob/master/test_aprori.R)
-### [k-means clustering Clustering](https://github.com/kvinlazy/ML_R/blob/master/test_k.R)
+### [k-means clustering](https://github.com/kvinlazy/ML_R/blob/master/test_k.R)
 
 ## Meta-Learning Algorithms
 ### [Bagging Dual use]
