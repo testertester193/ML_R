@@ -280,8 +280,68 @@
     <td>100</td>
   </tr>
 </table>
-           
+
+### Ripper Algorithm
+<table>
+  <tr>
+    <th> Strengths</th>
+    <th> Weaknesses</th>
+  </tr>
+  <tr>
+    <td>Generates easy-to-understand, human-readable rules</td>
+    <td>May result in rules that seem to defy common sense or expert knowledge</td>
+  </tr>
+    <tr>
+    <td>Efficient on large and noisy datasets</td>
+    <td>Not ideal for working with numeric data</td>
+  </tr>
+  <tr>
+    <td>Generally produces a simpler model than a comparable decision tree</td>
+    <td>Might not perform as well as more complex models</td>
+  </tr>
+ </table>
+#### Identifying Poisonous Mushrooms
+
+###### === Summary ===
+###### Correctly Classified Instances        8004               98.5229 %
+###### Incorrectly Classified Instances       120                1.4771 %
+###### Kappa statistic                          0.9704
+###### Mean absolute error                      0.0148
+###### Root mean squared error                  0.1215
+###### Relative absolute error                  2.958  %
+###### Root relative squared error             24.323  %
+###### Total Number of Instances             8124    
+###### Number of Rules : 9
+
 ### [Linear Regression Numeric prediction](https://github.com/kvinlazy/ML_R/blob/master/test_linear.R)
+#### Regression is concerned with specifying the relationship between a single numeric dependent variable (the value to be predicted) and one or more numeric independent variables (the predictors).
+### Multi Linear Regression 
+<table>
+  <tr>
+    <th> Strengths</th>
+    <th> Weaknesses</th>
+  </tr>
+  <tr>
+    <td>By far the most common approach for modeling numeric data</td>
+    <td>Makes strong assumptions about the data</td>
+  </tr>
+    <tr>
+    <td>Can be adapted to model almost any modeling task</td>
+    <td>The model's form must be specified by the user in advance</td>
+  </tr>
+  <tr>
+    <td>Provides estimates of both the strength and size of the relationships among features and the outcome</td>
+    <td>Only works with numeric features, so categorical data requires extra processing</td>
+  </tr>
+ </table>
+
+#### Predicting Medical Expenses
+![Histogram](./images/Rplot04.png)
+
+![plot](./images/Rplot03.png)
+
+![poltwe](./images/Rplot02.png)
+
 ### [Regression Trees Numeric prediction](https://github.com/kvinlazy/ML_R/blob/master/test_cortree.R)
 ### [Neural Networks Dual use](https://github.com/kvinlazy/ML_R/blob/master/test_neutralnet.R)
 ![Neural Network](./images/neutralnet.png)
