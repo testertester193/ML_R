@@ -45,10 +45,11 @@
   </tr>
 </table>
 
-##### Different results
+##### Diagnosing Breast Cancer
 <table>
     <tr>
-        <td> wbcd_test_pred </td>
+      <th></th>
+      <th> wbcd_test_pred </th>
     </tr>
     <tr>
         <td>wbcd_test_labels</td>
@@ -116,6 +117,7 @@
         <td> 0.210</td>
         <td>  0.210 </td>
     </tr>
+  </table>
 
 
 
