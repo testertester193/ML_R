@@ -22,6 +22,7 @@
 ### [Nearest Neighbor Classification](https://github.com/kvinlazy/ML_R/blob/master/test_knn.R)
 
 ####  Nearest neighbor classifiers are defined by their characteristic of classifying unlabeled examples by assigning them the class of similar labeled examples. Despite the simplicity of this idea, nearest neighbor methods are extremely powerful.
+<html>
 <style>
 table {
     font-family: arial, sans-serif;
@@ -39,6 +40,7 @@ tr:nth-child(even) {
     background-color: #dddddd;
 }
 </style>
+
 <table>
   <tr>
     <th>Strengths</th>
@@ -61,6 +63,7 @@ tr:nth-child(even) {
     <td>Nominal features and missing data require additional processing</td>
   </tr>
 </table>
+</html>
 
 ##### Different results
 |                 | wbcd_test_pred 
