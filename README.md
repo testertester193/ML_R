@@ -343,6 +343,32 @@
 ![poltwe](./images/Rplot02.png)
 
 ### [Regression Trees Numeric prediction](https://github.com/kvinlazy/ML_R/blob/master/test_cortree.R)
+<table>
+  <tr>
+    <th> Strengths</th>
+    <th> Weaknesses</th>
+  </tr>
+  <tr>
+    <td>Combines the strengths of decision trees with the ability to model numeric data</td>
+    <td>Not as well-known as linear regression</td>
+  </tr>
+    <tr>
+    <td>Does not require the user to specify the model in advance</td>
+    <td>Requires a large amount of training data</td>
+  </tr>
+  <tr>
+    <td>Uses automatic feature selection, which allows the approach to be used with a very large number of features</td>
+    <td>Difficult to determine the overall net effect of individual features on the outcome</td>
+  </tr>
+  <tr>
+    <td>May fit some types of data much better than linear regression</td>
+    <td>Large trees can become more difficult to interpret than a regression model</td>
+  </tr>
+ </table>
+ #### Estimating the Quality of Wines
+ ![poltwee](./images/Rplot05.png)
+ ![poltweee](./images/Rplot06.png)
+ ![poltweeee](./images/Rplot07.png)
 ### [Neural Networks Dual use](https://github.com/kvinlazy/ML_R/blob/master/test_neutralnet.R)
 ![Neural Network](./images/neutralnet.png)
 ### [Support Vector Machines Dual use](https://github.com/kvinlazy/ML_R/blob/master/test_OCR.R)
