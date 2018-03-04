@@ -22,25 +22,6 @@
 ### [Nearest Neighbor Classification](https://github.com/kvinlazy/ML_R/blob/master/test_knn.R)
 
 ####  Nearest neighbor classifiers are defined by their characteristic of classifying unlabeled examples by assigning them the class of similar labeled examples. Despite the simplicity of this idea, nearest neighbor methods are extremely powerful.
-<html>
-<style>
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-}
-
-td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-}
-
-tr:nth-child(even) {
-    background-color: #dddddd;
-}
-</style>
-
 <table>
   <tr>
     <th>Strengths</th>
@@ -63,73 +44,78 @@ tr:nth-child(even) {
     <td>Nominal features and missing data require additional processing</td>
   </tr>
 </table>
-</html>
 
 ##### Different results
-|                 | wbcd_test_pred 
-|wbcd_test_labels |    Benign | Malignant | Row Total | 
-|          Benign |        77 |         0 |        77 | 
-|                |     1.000 |     0.000 |     0.770 | 
-|                 |     0.975 |     0.000 |           | 
-|                 |     0.770 |     0.000 |           | 
-|       Malignant |         2 |        21 |        23 | 
-|                |     0.087 |     0.913 |     0.230 | 
-|                |     0.025 |     1.000 |           | 
-|                |     0.020 |     0.210 |           | 
-|   Column Total |        79 |        21 |       100 | 
-|                |     0.790 |     0.210 |           | 
-
-
-                 | wbcd_test_pred 
-wbcd_test_labels |    Benign | Malignant | Row Total | 
------------------|-----------|-----------|-----------|
-          Benign |        76 |         1 |        77 | 
-                 |     0.987 |     0.013 |     0.770 | 
-                 |     0.987 |     0.043 |           | 
-                 |     0.760 |     0.010 |           | 
------------------|-----------|-----------|-----------|
-       Malignant |         1 |        22 |        23 | 
-                 |     0.043 |     0.957 |     0.230 | 
-                 |     0.013 |     0.957 |           | 
-                 |     0.010 |     0.220 |           | 
------------------|-----------|-----------|-----------|
-    Column Total |        77 |        23 |       100 | 
-                 |     0.770 |     0.230 |           | 
------------------|-----------|-----------|-----------|
-
-                 | wbcd_test_pred 
-wbcd_test_labels |    Benign | Malignant | Row Total | 
------------------|-----------|-----------|-----------|
-          Benign |        77 |         0 |        77 | 
-                 |     1.000 |     0.000 |     0.770 | 
-                 |     0.963 |     0.000 |           | 
-                 |     0.770 |     0.000 |           | 
------------------|-----------|-----------|-----------|
-       Malignant |         3 |        20 |        23 | 
-                 |     0.130 |     0.870 |     0.230 | 
-                 |     0.037 |     1.000 |           | 
-                 |     0.030 |     0.200 |           | 
------------------|-----------|-----------|-----------|
-    Column Total |        80 |        20 |       100 | 
-                 |     0.800 |     0.200 |           | 
------------------|-----------|-----------|-----------|
-
-                 | wbcd_test_pred 
-wbcd_test_labels |    Benign | Malignant | Row Total | 
------------------|-----------|-----------|-----------|
-          Benign |        77 |         0 |        77 | 
-                 |     1.000 |     0.000 |     0.770 | 
-                 |     0.975 |     0.000 |           | 
-                 |     0.770 |     0.000 |           | 
------------------|-----------|-----------|-----------|
-       Malignant |         2 |        21 |        23 | 
-                 |     0.087 |     0.913 |     0.230 | 
-                 |     0.025 |     1.000 |           | 
-                 |     0.020 |     0.210 |           | 
------------------|-----------|-----------|-----------|
-    Column Total |        79 |        21 |       100 | 
-                 |     0.790 |     0.210 |           | 
------------------|-----------|-----------|-----------|
+<table>
+    <tr>
+        <td> wbcd_test_pred </td>
+    </tr>
+    <tr>
+        <td>wbcd_test_labels</td>
+        <td>Benign </td>
+        <td>Malignant</td>
+        <td>Row Total</td>
+    </tr>
+    <tr>
+        <td>Benign</td>
+        <td> 77 </td>
+        <td>0</td>
+        <td> 77</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td> 1.000 </td>
+        <td>0.000</td>
+        <td> 0.770</td>
+    </tr>
+     <tr>
+        <td></td>
+        <td>  0.975 </td>
+        <td>0.000</td>
+        <td> </td>
+    </tr>
+     <tr>
+        <td></td>
+        <td>   0.770  </td>
+        <td>0.000</td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>Malignant</td>
+        <td>  2  </td>
+        <td>21</td>
+        <td>23 </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>  0.087 </td>
+        <td>0.913</td>
+        <td>0.230  </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td> 0.025 </td>
+        <td>1.000</td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>  0.020  </td>
+        <td> 0.210</td>
+        <td>  </td>
+    </tr>
+    <tr>
+        <td>Column Total</td>
+        <td>  79 </td>
+        <td> 21</td>
+        <td> 100  </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td> 0.790  </td>
+        <td> 0.210</td>
+        <td>  0.210 </td>
+    </tr>
 
 
 
