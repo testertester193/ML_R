@@ -142,8 +142,8 @@
   <tr>
     <td>Easy to obtain the estimated probability for a prediction </td>
     <td></td>
-    <tr>
-      </table>
+  </tr>
+</table>
       
 ##### Filtering Mobile Phone Spam 
 ![All Words](./images/Rplot13.png "Word Cloud")
