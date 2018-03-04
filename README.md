@@ -50,6 +50,8 @@
     <tr>
       <th></th>
       <th> wbcd_test_pred </th>
+      <th></th>
+      <th></th>
     </tr>
     <tr>
         <td>wbcd_test_labels</td>
@@ -152,6 +154,133 @@
 ![Not spam](./images/Rplot.png "Not Spam Words")
 
 ### [Decision Trees Classification](https://github.com/kvinlazy/ML_R/blob/master/test_c50.R)
+
+#### Decision tree learners are powerful classifiers, which utilize a tree structure to model the relationships among the features and the potential outcomes.
+### C5.0 Algorithm
+<table>
+  <tr>
+    <th> Strengths</th>
+    <th> Weaknesses</th>
+  </tr>
+  <tr>
+    <td>An all-purpose classifier that does well on most problems</td>
+    <td>Decision tree models are often biased toward splits on features having a large number of levels</td>
+  </tr>
+    <tr>
+    <td>Highly automatic learning process, which can handle numeric or nominal features, as well as missing data</td>
+    <td>It is easy to overfit or underfit the model</td>
+  </tr>
+  <tr>
+    <td>Excludes unimportant features</td>
+    <td>Can have trouble modeling some relationships due to reliance on axis-parallel splits</td>
+  </tr>
+  <tr>
+    <td>Can be used on both small and large datasets</td>
+    <td>Small changes in the training data can result in large changes to decision logic</td>
+  </tr>
+  <tr>
+    <td>Results in a model that can be interpreted without a mathematical background (for relatively small trees)</td>
+    <td>Large trees can be difficult to interpret and the decisions they make may seem counterintuitive</td>
+  </tr>
+  <tr>
+    <td>More efficient than other complex models</td>
+    <td></td>
+  </tr>
+ </table>
+
+##### Identifying Risky Bank Loans
+###### Trail 10
+<table>
+  <tr>
+    <th></th>
+    <th>predicted default</th>
+    <th></th>
+    <th></th>
+  </tr>
+  <tr>
+    <th>actual default</th>
+    <th>1</th>
+    <th>2</th>
+    <th>Row Total</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td> 57</td>
+    <td>10</td>
+    <td>67</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>0.57</td>
+    <td>0.10</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>17</td>
+    <td>16</td>
+    <td>33</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>0.17</td>
+    <td>0.16</td>
+    <td></td>
+  </tr>
+   <tr>
+    <td>Column Total</td>
+    <td>74</td>
+    <td>26</td>
+    <td>100</td>
+  </tr>
+</table>
+ 
+###### Trial 9
+<table>
+  <tr>
+    <th></th>
+    <th>predicted default</th>
+    <th></th>
+    <th></th>
+  </tr>
+  <tr>
+    <th>actual default</th>
+    <th>1</th>
+    <th>2</th>
+    <th>Row Total</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>60</td>
+    <td>7</td>
+    <td>67</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>0.60</td>
+    <td>0.07</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>19</td>
+    <td>14</td>
+    <td>33</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>0.19</td>
+    <td>0.14</td>
+    <td></td>
+  </tr>
+   <tr>
+    <td>Column Total</td>
+    <td>79</td>
+    <td>21</td>
+    <td>100</td>
+  </tr>
+</table>
+           
 ### [Linear Regression Numeric prediction](https://github.com/kvinlazy/ML_R/blob/master/test_linear.R)
 ### [Regression Trees Numeric prediction](https://github.com/kvinlazy/ML_R/blob/master/test_cortree.R)
 ### [Neural Networks Dual use](https://github.com/kvinlazy/ML_R/blob/master/test_neutralnet.R)
