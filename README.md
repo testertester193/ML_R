@@ -9,11 +9,11 @@
 * [Neural Networks Dual use](#neural-networks-dual-use)
 * [Support Vector Machines Dual use](#support-vector-machines-dual-use)
 
-## Unsupervised Learning Algorithms(#unsupervised-learning-algorithms)
+## [Unsupervised Learning Algorithms](#unsupervised-learning-algorithms)
 * [Association Rules Pattern detection](#association-rules-pattern-detection)
 * [k-means clustering](#k-means-clustering)
 
-## Meta-Learning Algorithms(#meta-learning-algorithms)
+## [Meta-Learning Algorithms](#meta-learning-algorithms)
 * [Bagging Dual use]
 * [Boosting Dual use]
 * [Random Forests Dual use]
