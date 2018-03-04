@@ -144,9 +144,11 @@
     <td></td>
     <tr>
       </table>
+      
 ##### Filtering Mobile Phone Spam 
 ![All Words](./images/Rplot13.png "Word Cloud")
-![Spam](./images/Rplot01.png "Spam Words") ![Not spam](./images/Rplot.png "Not Spam Words")
+![Spam](./images/Rplot01.png "Spam Words") 
+![Not spam](./images/Rplot.png "Not Spam Words")
 
 ### [Decision Trees Classification](https://github.com/kvinlazy/ML_R/blob/master/test_c50.R)
 ### [Linear Regression Numeric prediction](https://github.com/kvinlazy/ML_R/blob/master/test_linear.R)
