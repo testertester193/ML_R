@@ -119,30 +119,34 @@
     </tr>
   </table>
 
-
-
 ### [Naive Bayes Classification](https://github.com/kvinlazy/ML_R/blob/master/test.R)
 
 #### The technique descended from the work of the 18th century mathematician Thomas Bayes, who developed foundational principles to describe the probability of events, and how probabilities should be revised in the light of additional information. These principles formed the foundation for what are now known as Bayesian methods.
-
-Strengths Weaknesses
-• Simple, fast, and very effective
-• Does well with noisy and missing
-data
-• Requires relatively few examples for
-training, but also works well with
-very large numbers of examples
-• Easy to obtain the estimated
-probability for a prediction
-• Relies on an often-faulty assumption
-of equally important and
-independent features
-• Not ideal for datasets with many
-numeric features
-• Estimated probabilities are less
-reliable than the predicted classes
-![All Words](./images/Rplot13.png)
-![Spam](./images/Rplot01.png) ![Not spam](./images/Rplot.png)
+<table>
+  <tr>
+    <th>Strengths</th>
+    <th>Weaknesses</th>
+  </tr>
+  <tr>
+    <td>Simple, fast, and very effective</td>
+    <td>Relies on an often-faulty assumption of equally important and independent features</td>
+  </tr>
+  <tr>
+    <td>Does well with noisy and missing data</td>
+    <td>Not ideal for datasets with many numeric features</td>
+    </tr>
+  <tr>
+    <td> Requires relatively few examples for training, but also works well with very large numbers of examples</td>
+    <td>Estimated probabilities are less reliable than the predicted classes</td>
+  </tr>
+  <tr>
+    <td>Easy to obtain the estimated probability for a prediction </td>
+    <td></td>
+    <tr>
+      </table>
+##### Filtering Mobile Phone Spam 
+![All Words](./images/Rplot13.png "Word Cloud")
+![Spam](./images/Rplot01.png "Spam Words") ![Not spam](./images/Rplot.png "Not Spam Words")
 
 ### [Decision Trees Classification](https://github.com/kvinlazy/ML_R/blob/master/test_c50.R)
 ### [Linear Regression Numeric prediction](https://github.com/kvinlazy/ML_R/blob/master/test_linear.R)
