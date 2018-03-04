@@ -365,10 +365,12 @@
     <td>Large trees can become more difficult to interpret than a regression model</td>
   </tr>
  </table>
+ 
  #### Estimating the Quality of Wines
  ![poltwee](./images/Rplot05.png)
  ![poltweee](./images/Rplot06.png)
  ![poltweeee](./images/Rplot07.png)
+ 
 ### [Neural Networks Dual use](https://github.com/kvinlazy/ML_R/blob/master/test_neutralnet.R)
 ![Neural Network](./images/neutralnet.png)
 ### [Support Vector Machines Dual use](https://github.com/kvinlazy/ML_R/blob/master/test_OCR.R)
