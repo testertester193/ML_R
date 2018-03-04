@@ -147,6 +147,7 @@
       
 ##### Filtering Mobile Phone Spam 
 ![All Words](./images/Rplot13.png "Word Cloud")
+
 ![Spam](./images/Rplot01.png "Spam Words") 
 ![Not spam](./images/Rplot.png "Not Spam Words")
 
