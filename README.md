@@ -300,7 +300,7 @@
     <td>Might not perform as well as more complex models</td>
   </tr>
  </table>
-#### Identifying Poisonous Mushrooms
+##### Identifying Poisonous Mushrooms
 
 ###### === Summary ===
 ###### Correctly Classified Instances        8004               98.5229 %
@@ -335,7 +335,7 @@
   </tr>
  </table>
 
-#### Predicting Medical Expenses
+##### Predicting Medical Expenses
 ![Histogram](./images/Rplot04.png)
 
 ![plot](./images/Rplot03.png)
@@ -366,7 +366,7 @@
   </tr>
  </table>
  
- #### Estimating the Quality of Wines
+ ##### Estimating the Quality of Wines
  ![poltwee](./images/Rplot05.png)
  ![poltweee](./images/Rplot06.png)
  ![poltweeee](./images/Rplot07.png)
@@ -392,7 +392,7 @@
   </tr>
  </table>
  
-#### Modeling the strength of concrete
+##### Modeling the strength of concrete
 ##### Train model
 ![Neural Network](./images/Rplot08.png)
 ##### Improved model
@@ -417,7 +417,7 @@
     <td>Results in a complex black box model that is difficult, if not impossible, to interpret</td>
   </tr>
  </table>
-#### Performing OCR
+##### Performing OCR
 ![OCR](./images/OCR.png)
 <table>
   <tr>
