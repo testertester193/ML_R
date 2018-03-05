@@ -367,6 +367,7 @@
  </table>
  
  #### Estimating the Quality of Wines
+ 
  ![poltwee](./images/Rplot05.png)
  ![poltweee](./images/Rplot06.png)
  ![poltweeee](./images/Rplot07.png)
