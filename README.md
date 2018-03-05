@@ -6,7 +6,7 @@
 * [Decision Trees Classification](#decision-trees-classification)
 * [Linear Regression Numeric prediction](#linear-regression-numeric-prediction)
 * [Regression Trees Numeric prediction](#regression-trees-numeric-prediction)
-* [Neural Networks Dual use](#neural-networks-dual-use)
+* [Neural Networks](#neural-networks)
 * [Support Vector Machines Dual use](#support-vector-machines-dual-use)
 
 ## [Unsupervised Learning Algorithms](#unsupervised-learning-algorithms)
@@ -367,7 +367,6 @@
  </table>
  
  #### Estimating the Quality of Wines
- 
  ![poltwee](./images/Rplot05.png)
  ![poltweee](./images/Rplot06.png)
  ![poltweeee](./images/Rplot07.png)
@@ -392,6 +391,7 @@
     <td>Results in a complex black box model that is difficult, if not impossible, to interpret</td>
   </tr>
  </table>
+ 
 #### Modeling the strength of concrete
 ##### Train model
 ![Neural Network](./images/Rplot08.png)
