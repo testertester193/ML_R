@@ -529,6 +529,7 @@
  </table>
  
  ##### Finding Teen Market Segments
+ 
  ![k-mean](./images/k-mean.png)
  ![kcluster](./images/kcluster.png)
 
