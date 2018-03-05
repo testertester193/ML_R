@@ -444,6 +444,65 @@
  
 ## Unsupervised Learning Algorithms
 ### [Association Rules Pattern detection](https://github.com/kvinlazy/ML_R/blob/master/test_aprori.R)
+#### Much work has been done to identify heuristic algorithms for reducing the number of itemsets to search. Perhaps the most-widely used approach for efficiently searching large databases for rules is known as Apriori. Introduced in 1994 by Rakesh Agrawal and Ramakrishnan Srikant, the Apriori algorithm has since become somewhat synonymous with association rule learning.
+<table>
+  <tr>
+    <th> Strengths</th>
+    <th> Weaknesses</th>
+  </tr>
+  <tr>
+    <td>Is capable of working with large amounts of transactional data</td>
+    <td>Not very helpful for small datasets</td>
+  </tr>
+    <tr>
+    <td>Results in rules that are easy to understand</td>
+    <td>Requires effort to separate the true insight from common sense</td>
+  </tr>
+  <tr>
+    <td>Useful for "data mining" and discovering unexpected knowledge in databases</td>
+    <td>Easy to draw spurious conclusions from random patterns</td>
+  </tr>
+ </table>
+ ##### Identifying Frequently Purchased Groceries
+ ![Neural Network](./images/Rplot12.png)
+ ![Neural Network](./images/Rplot11.png)
+ ![Neural Network](./images/Rplot09.png)
+ <table>
+  <tr>
+    <th> LHS</th>
+    <th> RHS</th>
+    <th> Support</th>
+    <th> Confidence</th>
+    <th> Lift</th>
+    <th> Count</th>
+  </tr>
+  <tr>
+    <td>{herbs} </td>
+    <td>=> {root vegetables}</td>
+    <td>0.007015760</td>
+    <td>0.4312500   </td>
+    <td>3.956477 </td>
+    <td> 69</td>
+  </tr>
+    <tr>
+    <td>{berries}</td>
+    <td>=> {whipped/sour cream}</td>
+    <td>0.009049314  </td>
+    <td>0.2721713  </td>
+    <td>3.796886 </td>
+    <td>    89</td>
+  </tr>
+  <tr>
+    <td>{other vegetables,                                                              
+     tropical fruit,                                                                
+     whole milk}        </td>
+    <td>=> {root vegetables} </td>
+    <td>   0.007015760 </td>
+    <td> 0.4107143</td>
+    <td> 3.768074</td>
+    <td> 69</td>
+  </tr>
+ </table>
 ### [k-means clustering](https://github.com/kvinlazy/ML_R/blob/master/test_k.R)
 
 ## Meta-Learning Algorithms
