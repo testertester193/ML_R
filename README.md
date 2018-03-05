@@ -300,6 +300,7 @@
     <td>Might not perform as well as more complex models</td>
   </tr>
  </table>
+ 
 ##### Identifying Poisonous Mushrooms
 
 ###### === Summary ===
@@ -366,7 +367,7 @@
   </tr>
  </table>
  
- ##### Estimating the Quality of Wines
+##### Estimating the Quality of Wines
  ![poltwee](./images/Rplot05.png)
  ![poltweee](./images/Rplot06.png)
  ![poltweeee](./images/Rplot07.png)
@@ -417,8 +418,11 @@
     <td>Results in a complex black box model that is difficult, if not impossible, to interpret</td>
   </tr>
  </table>
+ 
 ##### Performing OCR
+
 ![OCR](./images/OCR.png)
+
 <table>
   <tr>
     <th>Train data result</th>
@@ -464,7 +468,7 @@
   </tr>
  </table>
  
- ##### Identifying Frequently Purchased Groceries
+##### Identifying Frequently Purchased Groceries
  ![Neural Network](./images/Rplot12.png)
  ![Neural Network](./images/Rplot11.png)
  ![Neural Network](./images/Rplot09.png)
@@ -528,7 +532,7 @@
   </tr>
  </table>
  
- ##### Finding Teen Market Segments
+##### Finding Teen Market Segments
  
  ![k-mean](./images/k-mean.png)
  ![kcluster](./images/kcluster.png)
