@@ -463,6 +463,7 @@
     <td>Easy to draw spurious conclusions from random patterns</td>
   </tr>
  </table>
+ 
  ##### Identifying Frequently Purchased Groceries
  ![Neural Network](./images/Rplot12.png)
  ![Neural Network](./images/Rplot11.png)
@@ -493,9 +494,7 @@
     <td>    89</td>
   </tr>
   <tr>
-    <td>{other vegetables,                                                              
-     tropical fruit,                                                                
-     whole milk}        </td>
+    <td>{other vegetables, tropical fruit, whole milk}</td>
     <td>=> {root vegetables} </td>
     <td>   0.007015760 </td>
     <td> 0.4107143</td>
@@ -503,6 +502,7 @@
     <td> 69</td>
   </tr>
  </table>
+ 
 ### [k-means clustering](https://github.com/kvinlazy/ML_R/blob/master/test_k.R)
 
 ## Meta-Learning Algorithms
