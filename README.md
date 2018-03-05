@@ -371,7 +371,30 @@
  ![poltweee](./images/Rplot06.png)
  ![poltweeee](./images/Rplot07.png)
  
-### [Neural Networks Dual use](https://github.com/kvinlazy/ML_R/blob/master/test_neutralnet.R)
+### [Neural Networks](https://github.com/kvinlazy/ML_R/blob/master/test_neutralnet.R)
+#### An Artificial Neural Network (ANN) models the relationship between a set of input signals and an output signal using a model derived from our understanding of how a biological brain responds to stimuli from sensory inputs.
+<table>
+  <tr>
+    <th> Strengths</th>
+    <th> Weaknesses</th>
+  </tr>
+  <tr>
+    <td>Can be adapted to classification or numeric prediction problems</td>
+    <td>Extremely computationally intensive and slow to train, particularly if the network topology is complex</td>
+  </tr>
+    <tr>
+    <td>Capable of modeling more complex patterns than nearly any algorithm</td>
+    <td>Very prone to overfitting training data</td>
+  </tr>
+  <tr>
+    <td>Makes few assumptions about the data's underlying relationships</td>
+    <td>Results in a complex black box model that is difficult, if not impossible, to interpret</td>
+  </tr>
+ </table>
+#### Modeling the strength of concrete
+##### Train model
+![Neural Network](./images/Rplot08.png)
+##### Improved model
 ![Neural Network](./images/neutralnet.png)
 ### [Support Vector Machines Dual use](https://github.com/kvinlazy/ML_R/blob/master/test_OCR.R)
 
