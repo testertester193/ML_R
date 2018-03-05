@@ -7,7 +7,7 @@
 * [Linear Regression Numeric prediction](#linear-regression-numeric-prediction)
 * [Regression Trees Numeric prediction](#regression-trees-numeric-prediction)
 * [Neural Networks](#neural-networks)
-* [Support Vector Machines Dual use](#support-vector-machines-dual-use)
+* [Support Vector Machines](#support-vector-machines)
 
 ## [Unsupervised Learning Algorithms](#unsupervised-learning-algorithms)
 * [Association Rules Pattern detection](#association-rules-pattern-detection)
@@ -397,8 +397,51 @@
 ![Neural Network](./images/Rplot08.png)
 ##### Improved model
 ![Neural Network](./images/neutralnet.png)
-### [Support Vector Machines Dual use](https://github.com/kvinlazy/ML_R/blob/master/test_OCR.R)
-
+### [Support Vector Machines](https://github.com/kvinlazy/ML_R/blob/master/test_OCR.R)
+#### A Support Vector Machine (SVM) can be imagined as a surface that creates a boundary between points of data plotted in multidimensional that represent examples and their feature values.
+<table>
+  <tr>
+    <th> Strengths</th>
+    <th> Weaknesses</th>
+  </tr>
+  <tr>
+    <td>Can be used for classification or numeric prediction problems</td>
+    <td>Finding the best model requires testing of various combinations of kernels and model parameters</td>
+  </tr>
+    <tr>
+    <td>Not overly influenced by noisy data and not very prone to overfitting</td>
+    <td>Can be slow to train, particularly if the input dataset has a large number of features or examples</td>
+  </tr>
+  <tr>
+    <td>May be easier to use than neural networks, particularly due to the existence of several well-supported SVM algorithms</td>
+    <td>Results in a complex black box model that is difficult, if not impossible, to interpret</td>
+  </tr>
+ </table>
+#### Performing OCR
+![OCR](./images/OCR.png)
+<table>
+  <tr>
+    <th>Train data result</th>
+    <th> </th>
+  </tr>
+   <tr>
+    <th>False</th>
+    <th>True</th>
+  </tr>
+  <tr>
+    <td>0.16075</td>
+    <td> 0.83925</td>
+  </tr>
+    <tr>
+    <th>Improved Data</th>
+    <th></th>
+  </tr>
+  <tr>
+    <td>0.0695</td>
+    <td>0.9305</td>
+  </tr>
+ </table>
+ 
 ## Unsupervised Learning Algorithms
 ### [Association Rules Pattern detection](https://github.com/kvinlazy/ML_R/blob/master/test_aprori.R)
 ### [k-means clustering](https://github.com/kvinlazy/ML_R/blob/master/test_k.R)
