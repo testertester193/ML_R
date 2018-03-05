@@ -504,6 +504,33 @@
  </table>
  
 ### [k-means clustering](https://github.com/kvinlazy/ML_R/blob/master/test_k.R)
+#### Clustering is an unsupervised machine learning task that automatically divides the data into clusters, or groups of similar items. The k-means algorithm is perhaps the most commonly used clustering method.
+<table>
+  <tr>
+    <th> Strengths</th>
+    <th> Weaknesses</th>
+  </tr>
+  <tr>
+    <td>Uses simple principles that can be explained in non-statistical terms</td>
+    <td>Not as sophisticated as more modern clustering algorithms</td>
+  </tr>
+  <tr>
+    <td>Highly flexible, and can be adapted with simple adjustments to address nearly all of its shortcomings</td>
+    <td>Because it uses an element of random chance, it is not guaranteed to find the optimal set of clusters</td>
+  </tr>
+  <tr>
+    <td>Performs well enough under many real-world use cases</td>
+    <td>Requires a reasonable guess as to how many clusters naturally exist in the data</td>
+  </tr>
+   <tr>
+    <td></td>
+    <td>Not ideal for non-spherical clusters or clusters of widely varying density</td>
+  </tr>
+ </table>
+ 
+ ##### Finding Teen Market Segments
+ ![k-mean](./images/k-mean.png)
+ ![kcluster](./images/kcluster.png)
 
 ## Meta-Learning Algorithms
 ### [Bagging Dual use]
