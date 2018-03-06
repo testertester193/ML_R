@@ -1,2 +1,4 @@
 github:
   zip_url: https://github.com/kvinlazy/slate/archive/master.zip
+
+theme: jekyll-theme-slate
