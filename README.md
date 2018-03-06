@@ -565,6 +565,3 @@
   </tr>
  </table>
 
-Reference: 
-Machine Learning with R
-Lantz, Brett. Machine learning with R. Packt Publishing Ltd, 2013.
