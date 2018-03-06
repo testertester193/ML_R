@@ -1,5 +1,3 @@
-# Machine Learning with R
-
 ## [Supervised Learning Algorithms](#supervised-learning-algorithms)
 * [Nearest Neighbor Classification](#nearest-neighbor-classification)
 * [Naive Bayes Classification](#naive-bayes-classification)
