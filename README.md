@@ -14,9 +14,9 @@
 * [k-means clustering](#k-means-clustering)
 
 ## [Meta-Learning Algorithms](#meta-learning-algorithms)
-* [Bagging Dual use]
-* [Boosting Dual use]
-* [Random Forests Dual use]
+* [Bagging Dual use](#bagging-dual-use)
+* [Boosting Dual use](#boosting-dual-use)
+* [Random Forests Dual use](#random-forests-dual-use)
 
 ## Supervised Learning Algorithms
 ### [Nearest Neighbor Classification](https://github.com/kvinlazy/ML_R/blob/master/test_knn.R)
@@ -538,9 +538,34 @@
  ![kcluster](./images/kcluster.png)
 
 ## Meta-Learning Algorithms
-### [Bagging Dual use]
-### [Boosting Dual use]
-### [Random Forests Dual use]
+### Bagging Dual use
+#### As described by Leo Breiman in 1994, bagging generates a number of training datasets by bootstrap sampling the original training data. These datasets are then used to generate a set of models using a single learning algorithm.
+### Boosting Dual use
+#### A method that boosts the performance of weak learners to attain the performance of stronger learners is called booting.
+### Random Forests Dual use
+#### This method is combination of the base principles of bagging with random feature selection to add additional diversity to the decision tree models.
+<table>
+  <tr>
+    <th> Strengths</th>
+    <th> Weaknesses</th>
+  </tr>
+  <tr>
+    <td>An all-purpose model that performs well on most problems</td>
+    <td>Unlike a decision tree, the model is not easily interpretable</td>
+  </tr>
+  <tr>
+    <td>Can handle noisy or missing data as well as categorical or continuous features </td>
+    <td>May require some work to tune the model to the data</td>
+  </tr>
+  <tr>
+    <td>Selects only the most important features</td>
+    <td></td>
+  </tr>
+   <tr>
+    <td>Can be used on data with an extremely large number of features or examples</td>
+    <td></td>
+  </tr>
+ </table>
 
 Reference: 
 Machine Learning with R
